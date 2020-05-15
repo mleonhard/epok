@@ -5,7 +5,8 @@ A proposal for universal version numbers, incremented quarterly, to help reduce 
 2020-05-14 v0.1 Michael Leonhard ([mleonhard](https://github.com/mleonhard))
 
 
-# Devkwik and Kotar
+## Devkwik and Kotar
+
 People change software to make it more useful.  The people who change a particular piece of software are called its owners.
 
 Owners make various kinds of changes:
@@ -39,7 +40,7 @@ Example uses of 'kotar' and 'devkwik':
 - "// TODO(mleonhard) Find out if this is really kotar."
 
 
-# Motivation
+## Motivation
 
 Every software project uses modules from different owners.  Module owners can add features easily.  Before removing features, they must get all owners to change their software to stop using the features.  Getting other people to do work is difficult and often impossible.  This is why modules kotar quickly.
 
@@ -61,7 +62,7 @@ Examples of module kotar:
 This document addresses the problem of module kotar by helping module owners remove features quickly.
 
 
-# Epok Number
+## Epok Number
 
 An epok is a quarter, three months of time.
 
@@ -80,7 +81,7 @@ Epoked software must:
 Epoked modules must support deprecated functions for at least one epok.  This gives software owners time to update their software to stop using the function.
 
 
-# Make Devkwik Easier
+## Make Devkwik Easier
 
 When a module owner releases a new version of a module with a function removed, they must tell others which function to use instead, and how to switch to it.  They can publish a migration script that automatically changes code to use the new function.
 
@@ -91,16 +92,16 @@ Software owners can use tools to automatically:
 1. assign the work items to appropriate team members based on change history
 
 
-# Migration Script Format
+## Migration Script Format
 
 
-# Publishing Migration Scripts
+## Publishing Migration Scripts
 
 
-# Migration Tools
+## Migration Tools
 
 
-# Rosy Future
+## Rosy Future
 
 Eventually, all aspects of software will be epoked:
 - Languages - We can finally remove `null`.
@@ -108,3 +109,10 @@ Eventually, all aspects of software will be epoked:
 - Internet protocols - We can remove insecure features.
 - Wifi protocols - This could bring a seachange in IoT security.
 - Commercial APIs - Reduced cost of innovation
+
+
+## Appendix
+
+English spelling is silly.  Since we're making new words, we might as well spell them reasonably.
+
+I apologize to the residents of the small town named Kotar for giving their town's name to something negative.
